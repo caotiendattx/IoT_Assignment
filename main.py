@@ -6,7 +6,7 @@ import time
 from threading import Thread
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
+from mqtt import *
 class IoTDashboard:
     def __init__(self, root):
         self.root = root
